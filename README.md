@@ -1,4 +1,4 @@
-Fake News Detection Project
+##Fake News Detection Project
 
 This project aims to detect fake news using machine learning techniques in Python. It uses a dataset named train.csv, which can be downloaded from Kaggle. The project uses various Python libraries such as Pandas, Scikit-Learn, NLTK, and Numpy.
 
