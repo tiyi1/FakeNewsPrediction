@@ -57,3 +57,15 @@ news_dataset['content'] = news_dataset['content'].apply(stemming)
 X = news_dataset['content'].values
 Y = news_dataset['label'].values
 
+Y.shape
+
+
+# converting the textual data to numerical data (in X, Z already is numerical data)
+vectorizer = TfidfVectorizer()
+vectorizer.fit(X)
+
+X = vectorizer.transform(X)
+
+# splitting the dataset to training & test data
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
+
