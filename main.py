@@ -79,5 +79,17 @@ model.fit(X_train, Y_train)
 X_train_prediction = model.predict(X_train)
 training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 
-print('Accuracy score of the training data: ', training_data_accuracy)
+# accuracy score on the test data
+X_test_prediction = model.predict(X_test)
+test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
 
+# making a predictive system
+X_new = X_test[3]
+
+prediction = model.predict(X_new)
+print(prediction)
+
+if (prediction[0]==0):
+  print('The news is Real')
+else:
+  print('The news is Fake')
