@@ -24,9 +24,11 @@ To run this project, you need to have Python 3 and pip installed on your machine
 1. Clone the repository:
 
 git clone https://github.com/tiyi1/FakeNewsPrediction.git
+
 2. Navigate to the project directory:
 
 cd FakeNewsPrediction
+
 3. Install the dependencies:
 
 pip install -r requirements.txt
