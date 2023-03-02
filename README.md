@@ -39,9 +39,11 @@ After installing the dependencies, you can run the project by executing the **'m
 
 
 python main.py train.csv
+
 The script will preprocess the data, split it into training and testing sets, train the model, and print the accuracy score. You can modify the preprocessing steps or model parameters by editing the **'preprocess.py'** and **'model.py'** files.
 
-Customizing the Preprocessing Steps or Model Parameters
+### Customizing the Preprocessing Steps or Model Parameters
+
 To customize the preprocessing steps or model parameters, you can modify the relevant code in the **'preprocess.py'** and **'model.py'** files. For example, you can add additional preprocessing steps such as spell checking or part-of-speech tagging, or you can modify the hyperparameters of the SVM classifier such as the kernel function or regularization parameter.
 
 ### Libraries Used
@@ -55,6 +57,7 @@ After installing the dependencies, you can run the project by executing the main
 
 
 python main.py train.csv
+
 The script will preprocess the data, split it into training and testing sets, train the model, and print the accuracy score. You can modify the preprocessing steps or model parameters by editing the preprocess.py and model.py files.
 
 ### Model
