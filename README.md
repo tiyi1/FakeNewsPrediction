@@ -8,7 +8,7 @@ Fake news is a growing problem in today's society, and this project aims to tack
 
 ### Dataset
 
-The dataset used in this project is a collection of news articles with their labels (fake or real). The dataset is stored in the train.csv file, which contains the following columns:
+The dataset used in this project is a collection of news articles with their labels (fake or real). The dataset is stored in the **'train.csv'** file, which contains the following columns:
 
 - id: Unique identifier for the article
 - title: Title of the article
