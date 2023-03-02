@@ -45,10 +45,10 @@ Customizing the Preprocessing Steps or Model Parameters
 To customize the preprocessing steps or model parameters, you can modify the relevant code in the **'preprocess.py'** and **'model.py'** files. For example, you can add additional preprocessing steps such as spell checking or part-of-speech tagging, or you can modify the hyperparameters of the SVM classifier such as the kernel function or regularization parameter.
 
 ### Libraries Used
-Pandas: Pandas is a Python library for data manipulation and analysis. It provides easy-to-use data structures and data analysis tools for working with structured data such as CSV files.
-Scikit-Learn: Scikit-Learn is a Python library for machine learning. It provides a wide range of algorithms for classification, regression, clustering, and other machine learning tasks, as well as tools for data preprocessing, model selection, and evaluation.
-NLTK: NLTK (Natural Language Toolkit) is a Python library for natural language processing. It provides tools for text preprocessing, tokenization, stemming, and other tasks related to working with text data.
-Numpy: Numpy is a Python library for numerical computing. It provides high-performance arrays and matrices for working with numerical data, as well as tools for linear algebra, Fourier analysis, and other mathematical operations.
+- Pandas: Pandas is a Python library for data manipulation and analysis. It provides easy-to-use data structures and data analysis tools for working with structured data such as CSV files.
+- Scikit-Learn: Scikit-Learn is a Python library for machine learning. It provides a wide range of algorithms for classification, regression, clustering, and other machine learning tasks, as well as tools for data preprocessing, model selection, and evaluation.
+- NLTK: NLTK (Natural Language Toolkit) is a Python library for natural language processing. It provides tools for text preprocessing, tokenization, stemming, and other tasks related to working with text data.
+- Numpy: Numpy is a Python library for numerical computing. It provides high-performance arrays and matrices for working with numerical data, as well as tools for linear algebra, Fourier analysis, and other mathematical operations.
 
 ### Usage
 After installing the dependencies, you can run the project by executing the main.py file. The script takes the **'train.csv'** file as input and outputs the accuracy score of the trained model.
