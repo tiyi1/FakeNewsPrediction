@@ -33,14 +33,6 @@ cd FakeNewsPrediction
 
 pip install -r requirements.txt
 
-### Usage
-
-After installing the dependencies, you can run the project by executing the **'main.py'** file. The script takes the **'train.csv'** file as input and outputs the accuracy score of the trained model.
-
-
-python main.py train.csv
-
-The script will preprocess the data, split it into training and testing sets, train the model, and print the accuracy score. You can modify the preprocessing steps or model parameters by editing the **'preprocess.py'** and **'model.py'** files.
 
 ### Customizing the Preprocessing Steps or Model Parameters
 
